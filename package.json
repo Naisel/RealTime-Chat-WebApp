@@ -1,0 +1,19 @@
+{
+  "name": "realtime-chat-webapp",
+  "version": "1.0.0",
+  "description": "Real time chat app with different taste room",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naisel/RealTime-Chat-WebApp.git"
+  },
+  "author": "Naisel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Naisel/RealTime-Chat-WebApp/issues"
+  },
+  "homepage": "https://github.com/Naisel/RealTime-Chat-WebApp#readme"
+}
