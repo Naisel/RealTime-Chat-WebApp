@@ -4,7 +4,8 @@
   "description": "Real time chat app with different taste room",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Naisel/RealTime-Chat-WebApp/issues"
   },
-  "homepage": "https://github.com/Naisel/RealTime-Chat-WebApp#readme"
+  "homepage": "https://github.com/Naisel/RealTime-Chat-WebApp#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }

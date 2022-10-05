@@ -67,10 +67,20 @@ body {
     flex: 4;
     background-color: rgb(244, 251, 255);
     border-radius: 4px;
+    height: 400px;
+        overflow-y: scroll;
 
 }
 
-.chat-messages .message {
+.chat-messages .message-right {
+    text-align: right;
+    margin: 10px;
+    padding: px;
+    background-color: rgb(219, 192, 251);
+
+}
+
+.chat-messages .message-left {
     margin: 10px;
     padding: px;
     background-color: rgb(219, 192, 251);
